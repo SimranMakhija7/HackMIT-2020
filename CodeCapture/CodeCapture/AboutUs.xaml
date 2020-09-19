@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodeCapture.AboutUs">
+    <ContentPage.Content>
+        <Grid>
+            <Label 
+                Text="About CodeCapture"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+                Grid.Row="1"
+                Grid.ColumnSpan="3"/>
+
+            <Button 
+                x:Name="returnButton"
+                Text="Return" 
+                Clicked="returnButton_Clicked"
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Grid.Row="2"
+                Grid.Column="1"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

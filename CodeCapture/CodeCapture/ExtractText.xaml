@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CodeCapture.ExtractText">
+    <ContentPage.Content>
+        <Grid>
+            <Label 
+                Text="Editor For Extracted Text"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+                Grid.Row="0"
+                Grid.RowSpan="6"
+                Grid.Column="0"
+                Grid.ColumnSpan="5"/>
+            
+            <Editor 
+                x:Name="editor"
+                Text="Waiting For Extracted Code..."
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Grid.Row="1"
+                Grid.RowSpan="6"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"/>
+
+            <Label 
+                Text="Standard Input"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+                Grid.Row="7"
+                Grid.Column="0"
+                Grid.ColumnSpan="5"/>
+
+            <Editor 
+                x:Name="stdin"
+                Placeholder="Enter STDIN here"
+                Text=""
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Grid.Row="8"
+                Grid.RowSpan="3"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"/>
+
+            <Button 
+                x:Name="returnButton"
+                Text="Return"
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
+                Clicked="returnButton_ClickedAsync"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                Grid.Row="14"
+                Grid.RowSpan="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="10,0,0,10" />
+
+            <Button 
+                x:Name="compileButton"
+                Text="Compile" 
+                BackgroundColor="#7F0DFF00"
+                BorderColor="Black"
+                BorderWidth="1.5"
+                Clicked="compileButton_Clicked"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                Grid.Row="14"
+                Grid.RowSpan="2"
+                Grid.Column="3"
+                Grid.ColumnSpan="2"
+                Margin="0,0,10,10" />
+
+            <Picker 
+                x:Name="langPicker"  
+                Title="Language" 
+                TitleColor="Black"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Grid.Row="12"
+                Grid.RowSpan="2"
+                Grid.Column="1"
+                Grid.ColumnSpan="3" Margin="0" />
+
+            <Label 
+                Text="" 
+                Grid.Row="15"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
