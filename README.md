@@ -63,12 +63,15 @@ Please follow the following steps to run the project in **Visual Studio Communit
 |-|-|-|-|-|-|-|-|
 | Entering the App | About CodeCapture | Lessons Menu | Viewing A Lesson | Practice The Concept | Capturing An Image | Extracting The Code | Displaying The Output |
 
+The application consists of the various Content Pages that the user sees when they use the app. You can check out the [demo video of the app here too](https://youtu.be/fWh1jjOQNMM).
+
+
 ## Future Plans
 
 We do have various plans for the future, such as:
 1.  Gamifying the progress for users
 2.  Support for more languages
-3.  Lessons on more technologies
+3.  Custom lessons on more technologies
 4.  A web-based learning platform designed for educators
 5.  Improvements in UI
 
