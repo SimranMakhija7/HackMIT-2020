@@ -17,6 +17,9 @@ namespace CodeCapture
         {
             InitializeComponent();
 
+            string menuHeading = "We have our curated selection of\nC++ lessons that will help get beginners started. We will bring learning support for more languages soon.";
+            menuLabel.Text = menuHeading;
+
             var lessonList = new List<string>
             {
                 "1: Setup (For Computer) And Tokens in C++",

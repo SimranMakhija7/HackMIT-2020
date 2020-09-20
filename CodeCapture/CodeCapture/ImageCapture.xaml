@@ -71,7 +71,7 @@
 
             <Button
                 x:Name="menuButton"
-                Text="Return To Main Menu"
+                Text="Return To Lessons Menu"
                 BackgroundColor="MediumAquamarine"
                 BorderColor="Black"
                 BorderWidth="1.5"

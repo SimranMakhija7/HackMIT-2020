@@ -27,7 +27,7 @@ namespace CodeCapture
             var langList = new List<string>();
             langList.Add("C++ (GCC 9.1.0)");
             langList.Add("Java (JDK 11.0.4)");
-            langList.Add("JavaScript(Node v12.11.1)");
+            langList.Add("JavaScript(Node.js v12.11.1)");
             langList.Add("Python (v3.7.4)");
 
             langPicker.ItemsSource = langList;
@@ -140,23 +140,23 @@ namespace CodeCapture
 
             if(langPicker.SelectedItem!=null)
             {
-                if (string.Compare(langPicker.SelectedItem.ToString(), "C++ (GCC 9.1.0)") == 0)
+                if (langPicker.SelectedIndex == 0)
                 {
                     lang = "cpp";
                     vers = "4";
                 }
 
-                else if (string.Compare(langPicker.SelectedItem.ToString(), "Java (JDK 11.0.4)") == 0)
+                else if (langPicker.SelectedIndex == 1)
                 {
                     lang = "java";
                     vers = "3";
                 }
-                else if (string.Compare(langPicker.SelectedItem.ToString(), "JavaScript (Node v12.11.1)") == 0)
+                else if (langPicker.SelectedIndex == 2)
                 {
                     lang = "nodejs";
                     vers = "3";
                 }
-                else if (string.Compare(langPicker.SelectedItem.ToString(), "Python (v3.7.4)") == 0)
+                else if (langPicker.SelectedIndex == 3)
                 {
                     lang = "python3";
                     vers = "3";

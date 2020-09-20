@@ -28,6 +28,8 @@ namespace CodeCapture
         public CompileCode(string code, string Stdin, string lang, string vers)
         {
             InitializeComponent();
+            editor.IsReadOnly = false;
+
             saveCode = code;
             saveStdin = Stdin;
             compile(code, Stdin, lang, vers);
@@ -67,6 +69,7 @@ namespace CodeCapture
             result = output.output;
             await DisplayAlert("Compiled Code", result, "Show In Editor");
             editor.Text = result;
+            editor.IsReadOnly = true;
         }
 
         private async void returnButton_Clicked(object sender, EventArgs e)
