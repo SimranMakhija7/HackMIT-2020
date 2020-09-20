@@ -48,7 +48,7 @@ namespace CodeCapture
                 {
                     case 0:
                         lessonLink = "https://www.youtube.com/embed/o6dT3kAWg6s";
-                        question = "Just to try your hands on the platform, write your first \"Hello World\" program! Write a program to display the phrase \"Hello World!\" on the console/\n\n\n1) Write a program to display your name, weight, height(in meters), and BMI. Use weight and height to compute BMI and Store all four values in appropriate datatypes.";
+                        question = "Just to try your hands on the platform, write your first \"Hello World\" program! Write a program to display the phrase \"Hello World!\" on the console/\n\n\n Once you're comfortable with the concept of tokens, write a program to display your name, weight, height(in meters), and BMI. Use weight and height to compute BMI and Store all four values in appropriate datatypes.";
                         break;
                     case 1:
                         lessonLink = "https://www.youtube.com/embed/uzvE7dpMjLQ";

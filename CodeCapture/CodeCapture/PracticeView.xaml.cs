@@ -16,6 +16,7 @@ namespace CodeCapture
         {
             InitializeComponent();
             question.Text = ques;
+            question.IsReadOnly = true;
         }
 
         private async void returnButton_Clicked(object sender, EventArgs e)
