@@ -21,6 +21,42 @@ While in recent times, the world has started moving towards pro-CS education, th
 * Compiling Code: JDoodle Compiler API
 * Result SMS: Twilio Programmable SMS
 
+## Dependencies
+
+The following **NuGet** packages are necessary to build and run this project:
+
+* [Xamarin.Forms](https://www.nuget.org/packages/Xamarin.Forms/4.8.0.1364?_src=template)
+
+* [Xamarin.Essentials](https://www.nuget.org/packages/Xamarin.Essentials/1.5.3.2?_src=template)
+
+* [Microsoft.NETCore.UniversalWindowsPlatform](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform/6.2.10?_src=template)
+
+* [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/12.0.3?_src=template)
+
+* [Xam.Plugin.Media](https://www.nuget.org/packages/Xam.Plugin.Media/5.0.1?_src=template)
+
+* [Twilio](https://www.nuget.org/packages/Twilio/)
+
+* [NETStandard.Library](https://www.nuget.org/packages/NETStandard.Library/2.0.3?_src=template) (SDK)
+
+
+## Steps To Run
+
+Please follow the following steps to run the project in **Visual Studio Community 2019**
+
+1. Clone the repository to a location of your preference
+
+2. Open the project in Visual Studio 2019 by clicking on **CodeCapture.sln**
+
+3. Install all the dependencies mentioned above using the **NuGet Package Manager** 
+
+4. Go to the location **../CodeCapture/CodeCapture/Models** and create a **Secrets.cs** file based on the template in the **Readme.md** file
+   (For more information on how to create the resources for Azure Computer Vision Read API and JDoodle Compiler API, scroll below)
+
+5. Build the project
+ 
+6. Run and enjoy :)
+
 ## Future Plans
 
 We do have various plans for the future, such as:
