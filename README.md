@@ -8,6 +8,8 @@
 
 *Try the Android version by downloading the* [APK file from here](https://github.com/SimranMakhija7/HackMIT-2020/releases/tag/v1.0-beta) 
 
+*Check out the demo video of the application* [here on YouTube](https://youtu.be/fWh1jjOQNMM)
+
 ## Inspiration
 
 While in recent times, the world has started moving towards pro-CS education, the fact is that buying computers is a distant dream for most students and educational institutions across the globe even today. In most developing countries, the ratio of CS students versus the number of computers available is highly skewed and most students are still learning programming via pen-and-paper. At the same time, however, the number of people who own mobile phones has significantly increased. Bridging this gap between pen-and-paper coding and coding on a computer by using a technology that people already own can bring a significant difference in the adoption of Computer Science education today.
@@ -22,9 +24,12 @@ While in recent times, the world has started moving towards pro-CS education, th
 ## Future Plans
 
 We do have various plans for the future, such as:
-1.    Gamifying the progress for users
-2.    Support for more languages
-3.    Lessons on more technologies
-4.    A web-based learning platform designed for educators
+1.  Gamifying the progress for users
+2.  Support for more languages
+3.  Lessons on more technologies
+4.  A web-based learning platform designed for educators
+5.  Improvements in UI
 
+## Special Credits
 
+Special thanks to [Aman Dhattarwal](https://www.youtube.com/channel/UCmXZxX_qexEZxhb5_vQKPCw) for the amazing [C++ Course](https://www.youtube.com/playlist?list=PLKKfKV1b9e8qBh_LG02V8R8qGRQjloeBj) he has published on YouTube, which we have utilised in the application.
