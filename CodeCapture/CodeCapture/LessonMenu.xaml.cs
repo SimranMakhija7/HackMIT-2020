@@ -42,7 +42,7 @@ namespace CodeCapture
             if (lessonPicker.SelectedItem == null) await DisplayAlert("Select A Lesson", "", "OK");
             else
             {
-                string lessonTitle = lessonPicker.SelectedItem.ToString(), lessonLink = "", question = "";
+                string lessonTitle = lessonPicker.SelectedItem.ToString(), lessonLink, question;
 
                 switch (lessonPicker.SelectedIndex)
                 {
@@ -81,7 +81,11 @@ namespace CodeCapture
                         break;
                 }
 
-                if(lessonPicker.SelectedIndex!=7) question = "Question:\n\n" + question;
+                if (lessonPicker.SelectedIndex != 7)
+                {
+                    lessonTitle = "Concept " + lessonTitle;
+                    question = "Question:\n\n" + question;
+                }
 
                 await Navigation.PushModalAsync(new LessonView(lessonTitle, lessonLink, question));
             }

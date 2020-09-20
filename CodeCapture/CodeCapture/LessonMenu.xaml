@@ -26,7 +26,7 @@
                 Source="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/427px-ISO_C%2B%2B_Logo.svg.png" 
                 Grid.Row="1"
                 Grid.Column="2"
-                Margin="0,30,0,0"/>
+                Margin="0,40,0,0"/>
 
             <Picker 
                 x:Name="lessonPicker"

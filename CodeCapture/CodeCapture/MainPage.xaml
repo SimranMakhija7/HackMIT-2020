@@ -28,21 +28,21 @@
             Grid.Row="5"
             Grid.Column="1"
             Grid.ColumnSpan="3"
-            Margin="10,0,0,10"/>
+            Margin="10,10,10,10"/>
 
         <Button 
             x:Name="aboutButton"
             Text="About CodeCapture" 
             Clicked="aboutButton_Clicked"
-            BackgroundColor="#7F0DFF00"
+            BackgroundColor="MediumAquamarine"
             BorderColor="Black"
+            TextColor="Black"
             BorderWidth="1.5"
-            Grid.Row="5"
-            Grid.Column="3"
-            Grid.ColumnSpan="2"
-            Margin="0,0,10,10"
-            IsEnabled="False"
-            IsVisible="False"/>
+            VerticalOptions="End"
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
+            Margin="15,15,15,15"/>
         
         <Label 
             Grid.Row="0"

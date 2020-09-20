@@ -8,8 +8,23 @@
                 Text="About CodeCapture"
                 HorizontalOptions="CenterAndExpand"
                 FontSize="Title"
+                Grid.Row="0"
+                Grid.ColumnSpan="7"/>
+
+            <Image 
+                Source="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/1024px-CodeCapture-Banner-JPG.jpg" 
                 Grid.Row="1"
-                Grid.ColumnSpan="3"/>
+                Grid.RowSpan="3"
+                Grid.Column="0"
+                Grid.ColumnSpan="7"/>
+            
+            <Label
+                x:Name="aboutUs"
+                Text=""
+                Grid.Row="4"
+                Grid.RowSpan="4"
+                Grid.Column="1"
+                Grid.ColumnSpan="5"/>
 
             <Button 
                 x:Name="returnButton"
@@ -20,8 +35,9 @@
                 BorderWidth="1.5"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="CenterAndExpand"
-                Grid.Row="2"
-                Grid.Column="1"/>
+                Grid.Row="8"
+                Grid.Column="2"
+                Grid.ColumnSpan="3"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

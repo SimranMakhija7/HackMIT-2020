@@ -100,7 +100,7 @@ namespace CodeCapture
                         MailMessage mail = new MailMessage();
                         SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
                         mail.From = new MailAddress(secrets.EMAIL_address);
-                        mail.To.Add(emailID.Text);
+                        mail.To.Add(emailID.Text.Trim());
                         mail.Subject = "CodeCapture Scan";
                         mail.Body = emailContentBody;
                         SmtpServer.Port = 587;
@@ -128,7 +128,7 @@ namespace CodeCapture
                         var message = MessageResource.Create(
                             body: msgContentBody,
                             from: new Twilio.Types.PhoneNumber(secrets.TWILIO_phoneNumber),
-                            to: new Twilio.Types.PhoneNumber(phoneNumber.Text)
+                            to: new Twilio.Types.PhoneNumber(phoneNumber.Text.Trim())
                         );
 
                         if (!(message.ErrorCode == null))
